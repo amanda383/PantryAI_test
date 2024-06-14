@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "Recipebook",
+    "scheme":"Recipebook",
     "slug": "Recipebook",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,8 +12,14 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package": "com.michaelis.PantryAI",
+      "bundleIdentifier": "com.michaelis.PantryAI"
     },
     "android": {
       "adaptiveIcon": {
@@ -22,6 +29,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
