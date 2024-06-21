@@ -46,7 +46,6 @@ const Home = () => {
 const styles = StyleSheet.create({
   safeAreaView: {
     flex: 1,
-    backgroundColor: '#CDCDE0', // Set your desired background color
   },
   scrollViewContent: {
     flexGrow: 1,
